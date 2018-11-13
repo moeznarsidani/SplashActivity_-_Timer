@@ -39,7 +39,7 @@ namespace menutoggle
         {
             await Task.Run(() =>
             {
-                Task.Delay(10000);
+                Task.Delay(12000);
                 StartActivity(new Intent(Application.Context, typeof(MainActivity)));
             });
         }
